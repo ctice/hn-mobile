@@ -14,7 +14,8 @@
     ],
     "copies": [
       "vendor/jquery.min.js",
-      "favicon.ico"
+      "favicon.ico",
+      "apple-touch-icon.png"
     ],
     "package_target": "pkg/",
     "package_name": "hn-mobile"

@@ -1,3 +1,5 @@
+// common css styles
+
 .full-screen {
   height: 100%;
   width: 100%;
@@ -8,10 +10,16 @@ html {
 }
 
 body {
+  cursor: pointer;
   font-family: Helvetica;
   margin: 0;
   padding: 0;
   .full-screen;
+
+  a {
+    color: #627AAD;
+    text-decoration: none;
+  }
 }
 
 .bt-scene-stack {
@@ -25,4 +33,25 @@ body {
   .detail {
     margin: 0 8px;
   }
+}
+
+.backButton {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  font-size: 20px;
+  padding: 0 8px 6px 8px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.loading {
+  color: #777;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -100px;
+  text-align: center;
+  width: 200px;
+  z-index: 1;
 }
