@@ -1,0 +1,22 @@
+{
+  "name": "hn-mobile",
+  "version": "0.1.0",
+  "main": "./lib/main",
+  "modulr": {
+    "paths": [
+      "./lib"
+    ]
+  },
+  "bolt_build_manifest": {
+    "require_css": true,
+    "sources": [
+      "index.html"
+    ],
+    "copies": [
+      "jsonp.min.js",
+      "favicon.ico"
+    ],
+    "package_target": "pkg/",
+    "package_name": "hn-mobile"
+  }
+}
