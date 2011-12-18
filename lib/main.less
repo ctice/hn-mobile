@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   .full-screen;
+  -webkit-user-select: none;
 
   a {
     color: #627AAD;
@@ -50,8 +51,16 @@ body {
   position: absolute;
   top: 200px;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -110px;
   text-align: center;
-  width: 200px;
+  width: 230px;
   z-index: 1;
+}
+
+.bt-article-list,
+.bt-comment-collection-view,
+.textContent {
+  border-radius: 10px;
+  margin: 3px auto;
+  max-width: 800px;
 }
