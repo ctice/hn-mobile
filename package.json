@@ -13,7 +13,6 @@
       "index.html"
     ],
     "copies": [
-      "vendor/jquery.min.js",
       "favicon.ico",
       "apple-touch-icon.png"
     ],
